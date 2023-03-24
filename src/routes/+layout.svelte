@@ -26,6 +26,15 @@
 			<li><a href="/about" on:click={closeSidebar}>About</a></li>
 			<li><a href="/projects" on:click={closeSidebar}>Projects</a></li>
 			<li><a href="/guestbook" on:click={closeSidebar}>Guestbook</a></li>
+			<li>
+				<iframe
+					src="https://discord.com/widget?id=1088818571867607060&theme=dark"
+					class="w-72 h-80"
+					allowtransparency="true"
+					frameborder="0"
+					sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
+				/>
+			</li>
 		</ul>
 	</div>
 </div>
