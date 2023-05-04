@@ -1,13 +1,21 @@
-<h1 class="text-3xl font-bold mb-3">Projects</h1>
+<script>
+	import ProjectCard from '$lib/components/project-card.svelte';
+</script>
 
-<div class="card w-auto md:w-96 lg:w-96 bg-base-300 shadow-xl">
-	<div class="card-body">
-		<h2 class="card-title">IamChat</h2>
-		<p>A chat app made with SvelteKit and Firebase</p>
-		<div class="card-actions justify-start">
-			<a href="https://github.com/iamgabrieltv/IamChat">
-				<button class="btn btn-primary">GitHub</button>
-			</a>
-		</div>
-	</div>
+<h1 class="text-3xl font-bold">Projects</h1>
+<p class="text-lg mb-3">Here you can check out my projects on GitHub!</p>
+
+<div class="divider" />
+
+<div class="grid gap-4 grid-cols-1 md:grid-cols-3">
+	<ProjectCard
+		title="IamBot"
+		body="A very specific custom discord bot."
+		url="https://github.com/iamgabrieltv/IamBot"
+	/>
+	<ProjectCard
+		title="iamgabrieltv.tk"
+		body="The Website you're on right now!"
+		url="https://github.com/iamgabrieltv/iamgabrieltv.tk"
+	/>
 </div>
