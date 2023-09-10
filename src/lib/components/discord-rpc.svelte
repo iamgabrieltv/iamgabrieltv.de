@@ -1,9 +1,8 @@
 <script lang="ts">
 	import { browser } from '$app/environment';
 	import { onMount, onDestroy } from 'svelte';
-	import DiscordRpc from '$lib/components/discord-rpc.svelte';
 
-	export let data;
+	export let data: any;
 	let { lanyardResponse } = data;
 	$: ({ lanyardResponse } = data);
 
@@ -13,8 +12,8 @@
 	const activities = lanyardResponse.activities;
 	let progress = 0;
 	let totalDuration = 0;
-	let spotifyUpdateInterval;
-	let activitiesUpdateInterval;
+	let spotifyUpdateInterval: any;
+	let activitiesUpdateInterval: any;
 
 	onMount(() => {
 		if (activities[0] && browser) {
@@ -77,7 +76,6 @@
 			</div>
 		{/if}
 		<p class="place-self-start font-semibold ml-1 my-2">{user.username}</p>
-		<p class="my-2">#{user.discriminator}</p>
 	</div>
 
 	<div class="divider m-0" />
