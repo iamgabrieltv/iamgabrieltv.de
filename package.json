@@ -13,7 +13,7 @@
 	},
 	"devDependencies": {
 		"@catppuccin/tailwindcss": "^0.1.1",
-		"@iconify/svelte": "^3.1.0",
+		"@iconify/svelte": "^3.1.4",
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/kit": "^1.15.8",
 		"autoprefixer": "^10.4.14",
@@ -29,12 +29,12 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@auth/core": "^0.5.1",
-		"@auth/sveltekit": "^0.2.1",
+		"@auth/core": "^0.14.0",
+		"@auth/sveltekit": "^0.3.7",
 		"@catppuccin/palette": "^0.1.7",
 		"@supabase/supabase-js": "^2.12.1",
 		"@sveltejs/adapter-vercel": "^2.0.1",
-		"daisyui": "^2.51.5",
+		"daisyui": "^3.7.3",
 		"theme-change": "^2.3.0",
 		"uuid": "^9.0.0"
 	}
