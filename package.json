@@ -33,7 +33,7 @@
 		"@auth/sveltekit": "^0.3.7",
 		"@catppuccin/palette": "^0.1.7",
 		"@supabase/supabase-js": "^2.12.1",
-		"@sveltejs/adapter-vercel": "^2.0.1",
+		"@sveltejs/adapter-vercel": "^3.0.3",
 		"daisyui": "^2.51.5",
 		"theme-change": "^2.3.0",
 		"uuid": "^9.0.0"
