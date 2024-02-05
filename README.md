@@ -1,8 +1,8 @@
-# iamgabrieltv.tk
+# iamgabrieltv.de
 
 My personal website with facts about me and my projects
 <br/>
-[![GitHub deployments](https://img.shields.io/github/deployments/iamgabrieltv/iamgabrieltv.tk/Production?label=vercel&logo=vercel&logoColor=white&style=for-the-badge)](https://iamgabrieltv.tk/)
+[![GitHub deployments](https://img.shields.io/github/deployments/iamgabrieltv/iamgabrieltv.tk/Production?label=vercel&logo=vercel&logoColor=white&style=for-the-badge)](https://iamgabrieltv.de/)
 
 ## Developing
 
