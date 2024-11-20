@@ -1,0 +1,27 @@
+{
+  "name": "iamgabrieltv-de",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.4",
+    "@astrojs/cloudflare": "^11.2.0",
+    "@astrojs/svelte": "^6.0.1",
+    "@astrojs/tailwind": "^5.1.2",
+    "astro": "^4.16.13",
+    "prettier-plugin-tailwindcss": "^0.6.9",
+    "svelte": "^5.2.4",
+    "tailwindcss": "^3.4.15",
+    "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "@catppuccin/tailwindcss": "^0.1.6",
+    "daisyui": "^4.12.14"
+  }
+}
